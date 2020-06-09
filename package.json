@@ -1,0 +1,20 @@
+{
+  "name": "luckyy",
+  "version": "1.0.0",
+  "description": "All Random Things 👽🤓😉❤🚀🔥💾⌛",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "random",
+    "random.js",
+    "beginner",
+    "lite",
+    "Math",
+    "Math.js",
+    "Random.js"
+  ],
+  "author": "Ephraim Atta-Duncan",
+  "license": "MIT"
+}
