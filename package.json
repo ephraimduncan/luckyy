@@ -1,10 +1,11 @@
 {
   "name": "luckyy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "All Random Things 👽🤓😉❤🚀🔥💾⌛",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "push": "git push -u origin master && npm publish"
   },
   "keywords": [
     "random",
