@@ -45,7 +45,7 @@ const DecRandom = {
     try {
       return arr();
     } catch (RangeError) {
-      console.error("Call Stack Full. Retry Again");
+      console.error('Call Stack Full. Retry Again');
     }
   },
 };

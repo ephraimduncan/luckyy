@@ -22,10 +22,10 @@ This mini utility contains two sections. One for whole numbers and the other for
 
 ```js
 // Use it on Whole Numbers
-const Random = require("luckyy").random;
+const Random = require('luckyy').random;
 
 // Use with decimals
-const DecRandom = require("luckyy").decRandom;
+const DecRandom = require('luckyy').decRandom;
 ```
 
 ## Methods
