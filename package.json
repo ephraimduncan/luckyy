@@ -16,6 +16,9 @@
     "Math.js",
     "Random.js"
   ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "author": "Ephraim Atta-Duncan",
   "license": "MIT"
 }
