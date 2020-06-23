@@ -1,6 +1,6 @@
 {
   "name": "luckyy",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "All Random Things 👽🤓😉❤🚀🔥💾⌛",
   "main": "index.js",
   "scripts": {
@@ -17,7 +17,7 @@
     "Random.js"
   ],
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://npm.pkg.github.com/@dephraiim"
   },
   "author": "Ephraim Atta-Duncan",
   "license": "MIT"
