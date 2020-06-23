@@ -9,7 +9,7 @@ A small utility library to expand on the random method of the default JavaScript
 You can install it in your project file and use it as a dependency.
 
 ```bash
-npm i luckyy
+npm install luckyy
 ```
 
 ## Usage
@@ -21,11 +21,12 @@ You can import it in your prpject using CommonJs Modules.
 This mini utility contains two sections. One for whole numbers and the other for Decimals.
 
 ```js
-// Use it on Whole Numbers
-const Random = require('luckyy').random;
+// Destructuring the main object.
 
-// Use with decimals
-const DecRandom = require('luckyy').decRandom;
+const { randReal, randDec } = require("luckyy");
+
+// randReal for whole numbers
+// randDec for decimal numbers
 ```
 
 ## Methods

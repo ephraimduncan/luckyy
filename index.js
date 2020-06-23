@@ -1,6 +1,6 @@
 const index = {
-  random: require('./src/rand'),
-  decRandom: require('./src/dec'),
+  randReal: require("./src/rand"),
+  randDec: require("./src/dec"),
 };
 
 module.exports = index;
