@@ -12,7 +12,7 @@ const Random = {
    * Up to a specific number if stated
    */
   randArray(limit = 10, arrLen = 10) {
-    let randArr = [];
+    let randArr: Number[] = [];
     for (let i = 0; i < arrLen; i++) {
       randArr.push(Random.rand(limit));
     }
@@ -22,9 +22,9 @@ const Random = {
   /**
    * Return a set number of random numbers between a certain range Arrray
    */
-  randArrayRange(start, limit = 10, arrLen = 10) {
-    const arr = () => {
-      let randArr = [];
+  randArrayRange(start: Number, limit = 10, arrLen = 10) {
+    const arr = (): Number[] => {
+      let randArr: Number[] = [];
       for (let i = 0; i < arrLen; i++) {
         let randInt = Random.rand(limit);
         if (randInt > start) {
@@ -38,9 +38,9 @@ const Random = {
     try {
       return arr();
     } catch (RangeError) {
-      console.error('Call Stack Full. Retry Again');
+      throw new Error("Call Stack Full. Retry Again");
     }
   },
 };
 
-module.exports = Random;
+export default Random;

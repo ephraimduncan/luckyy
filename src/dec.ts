@@ -2,7 +2,7 @@ const DecRandom = {
   /**
    * Function to convert an float to a specific number of decimal places
    */
-  dec(num, decimal) {
+  dec(num: number, decimal: number) {
     return Number(String(num).slice(0, 2 + decimal));
   },
 
@@ -19,7 +19,7 @@ const DecRandom = {
    * with a specified number of decimal places
    */
   randArray(arrLen = 10, dp = 3, limit = 10) {
-    let randArr = [];
+    let randArr: Number[] = [];
     for (let i = 0; i < arrLen; i++) {
       randArr.push(DecRandom.rand(dp, limit));
     }
@@ -30,9 +30,9 @@ const DecRandom = {
    * Return an array of range of specified random decimal numbers
    * with a specified number of decimal places
    */
-  randArrayRange(start, limit, arrLen = 10, dp = 3) {
-    const arr = () => {
-      let randArr = [];
+  randArrayRange(start: number, limit: number, arrLen = 10, dp = 3) {
+    const arr = (): Number[] => {
+      let randArr: Number[] = [];
       for (let i = 0; i < arrLen; i++) {
         let randInt = DecRandom.rand(dp, limit);
         if (randInt > start) {
@@ -45,9 +45,9 @@ const DecRandom = {
     try {
       return arr();
     } catch (RangeError) {
-      console.error('Call Stack Full. Retry Again');
+      throw new Error("Call Stack Full. Retry Again");
     }
   },
 };
 
-module.exports = DecRandom;
+export default DecRandom;
