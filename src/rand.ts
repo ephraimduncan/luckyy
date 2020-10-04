@@ -43,4 +43,4 @@ const Random = {
   },
 };
 
-export default Random;
+export = Random;

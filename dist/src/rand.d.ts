@@ -14,4 +14,4 @@ declare const Random: {
      */
     randArrayRange(start: Number, limit?: number, arrLen?: number): Number[];
 };
-export default Random;
+export = Random;

@@ -50,4 +50,4 @@ const DecRandom = {
   },
 };
 
-export default DecRandom;
+export = DecRandom;

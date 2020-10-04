@@ -6,4 +6,4 @@ const index = {
   randDec,
 };
 
-export default index;
+export = index;

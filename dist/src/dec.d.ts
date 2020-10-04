@@ -18,4 +18,4 @@ declare const DecRandom: {
      */
     randArrayRange(start: number, limit: number, arrLen?: number, dp?: number): Number[];
 };
-export default DecRandom;
+export = DecRandom;

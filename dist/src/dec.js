@@ -1,5 +1,4 @@
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 const DecRandom = {
     /**
      * Function to convert an float to a specific number of decimal places
@@ -47,4 +46,4 @@ const DecRandom = {
         }
     },
 };
-exports.default = DecRandom;
+module.exports = DecRandom;

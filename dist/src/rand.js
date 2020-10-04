@@ -1,5 +1,4 @@
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 const Random = {
     /**
      * Return a single whole random number
@@ -41,4 +40,4 @@ const Random = {
         }
     },
 };
-exports.default = Random;
+module.exports = Random;
