@@ -1,4 +1,4 @@
-declare const index: {
+declare const _default: {
     randReal: {
         rand(limit?: number): number;
         randArray(limit?: number, arrLen?: number): Number[];
@@ -11,4 +11,4 @@ declare const index: {
         randArrayRange(start: number, limit: number, arrLen?: number, dp?: number): Number[];
     };
 };
-export = index;
+export = _default;
