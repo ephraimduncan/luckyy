@@ -2,7 +2,8 @@
   "name": "luckyy",
   "version": "1.0.4",
   "description": "All Random Things 👽🤓😉❤🚀🔥💾⌛",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "start": "node index.js",
     "push": "git push -u origin master && npm publish"
