@@ -14,7 +14,7 @@ npm install luckyy
 
 ## Usage
 
-You can import it in your prpject using CommonJs Modules.
+You can import it in your project using CommonJs Modules.
 
 ### Common Js
 
